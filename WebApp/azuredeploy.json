@@ -76,7 +76,7 @@
 
   "variables": {
     "planName": "[concat(parameters('WebAppName'), '-plan')]",
-    "packageUrl": "https://github.com/lshaikloginsoft/ARM_Template_test/raw/main/source.zip"
+    "packageUrl": "https://github.com/lshaikloginsoft/Outlook-Addin/raw/main/WebApp/source.zip"
   },
 
   "resources": [

@@ -75,10 +75,8 @@ This add-in streamlines phishing reporting workflows while maintaining security,
 ![06](Images/06.png)
 
 Note: You will not be able to view Client Secret after sometime. Save it securely. This will be used in Azure Web App environment variables.
+
 11. Navigate to: **Manage → API permissions**
-
-![clickaddpermissions](images/18click-add-permissions.png)
-
 12. Click **+ Add a permission**
 13. Select: **Microsoft Graph**  → **Delegated permissions**. 
 
@@ -103,7 +101,7 @@ Note: You will not be able to view Client Secret after sometime. Save it securel
 
 1. Click on below button to deploy:
 
-  [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Flshaikloginsoft%2FOutlook-Addin%2Fmain%2Fazuredeploy.json)
+  [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Flshaikloginsoft%2FOutlook-Addin%2Fmain%2FWebApp%2Fazuredeploy.json)
 
 2. On the next page, please provide the values accordingly.
 
