@@ -105,7 +105,7 @@ Note: You will not be able to view Client Secret after sometime. Save it securel
 
 2. On the next page, please provide the values accordingly.
 
-![webApp](Images/webApp.png)
+![10](Images/10.png)
 
 
 | Fields                                                  | Description                                                                                                                                        |
@@ -125,12 +125,12 @@ Note: You will not be able to view Client Secret after sometime. Save it securel
 3. Once you provide the above values, please click on `Review + create` button.
 4. After deployment is successful, go to Web App and copy the `Default domain` value from the overview section. This is referred as `domain` in later steps.
 
-![10](Images/10.png)
+![11](Images/11.png)
 
 5. Navigate to `Settings → Environment Variables` and click on `+ Add`
 6. Fill `name` as `APP_DOMAIN` and value as above copied `Domain` value.
 
-![11](Images/11.png)
+![12](Images/12.png)
 
 ---
 
@@ -140,7 +140,7 @@ Note: You will not be able to view Client Secret after sometime. Save it securel
 2. Click: **+ Add Redirect URI → Single Page Application**
 3. Select:  **Single-page application**
 
-![12](Images/12.png)
+![13](Images/13.png)
 
 4. Add Redirect URI:
 ```
@@ -149,7 +149,7 @@ https://YOUR-DOMAIN/fallbackauthdialog.html
 5. Click **Configure** and **Cancel**
 6. Navigate to: **Manage → Expose an API**
 
-![13](Images/13.png)
+![14](Images/14.png)
 
 7. Click **Set** (next to Application ID URI)
 
@@ -160,7 +160,7 @@ api://YOUR-DOMAIN/CLIENT_ID
 8. Click **Save**
 9. Click **+ Add a scope**
 
-![14](Images/14.png)
+![15](Images/15.png)
 
 10. Fill:
     * **Scope name:** `access_as_user`
@@ -173,7 +173,7 @@ api://YOUR-DOMAIN/CLIENT_ID
 12. Scroll down to **Authorized client applications**
 13. Click:  **+ Add a client application**
 
-![15](Images/15.png)
+![16](Images/16.png)
 
 14. In **Client ID**, enter:
 
@@ -194,9 +194,9 @@ api://YOUR-DOMAIN/CLIENT_ID
 
 * Open `manifest.xml` file and update all the highlighted domain values below with your Web App domain.
 
-![16](Images/16.png)
-
 ![17](Images/17.png)
+
+![18](Images/18.png)
 
 * #### For Example Replace below 
 
@@ -210,7 +210,7 @@ api://YOUR-DOMAIN/CLIENT_ID
 * #### Next update `WebApplicationInfo` section with 
     `Client_Id` and `Application ID URI`  value created in Phase 3 step 7
 
-![18](Images/18.png)
+![19](Images/19.png)
 
 #### Optional: Customize Display Text
 1. You may optionally update the values inside the following elements to match your organization’s terminology:
@@ -232,19 +232,19 @@ api://YOUR-DOMAIN/CLIENT_ID
 2. Sign in with a **Global Administrator** oaccount.
 3. From the left navigation menu, select: **Settings → Integrated apps**
 
-![19](Images/19.png)
+![20](Images/20.png)
 
 4. Select the **Add-ins** tab at the top.
 
 5. Click **Deploy Add-in**.
 
-![20](Images/20.png)
+![21](Images/21.png)
 
 6. In the **Deploy a new add-in** wizard, click **Next**.
 
 7. Choose:  **Upload custom apps**
 
-![21](Images/21.png)
+![22](Images/22.png)
 
 8. Click **Choose File**.
 
@@ -253,7 +253,7 @@ api://YOUR-DOMAIN/CLIENT_ID
    ```
    manifest.xml
    ```
-![22](Images/22.png)
+![23](Images/23.png)
 
 10. Click **Upload**.
 
@@ -267,19 +267,19 @@ api://YOUR-DOMAIN/CLIENT_ID
 
     * Click **Deploy**.
 
-![23](Images/23.png)
+![24](Images/24.png)
 
 12.  Confirmation of the admin Consent by clicking on save.
 
-![24](Images/24.png)
+![25](Images/25.png)
 
 13.  A green checkmark appears when deployment succeeds.
 
-![25](Images/25.png)
+![26](Images/26.png)
 
 14.  Click **Next** to finish.
 
-![26](Images/26.png)
+![27](Images/27.png)
 
 15.  If you deployed only to yourself and later want broader rollout:
 
@@ -300,12 +300,12 @@ After deployment, the add-in behavior depends on the deployment method selected 
 * Open **Outlook Web or Desktop**.
 * Open any email.
 
-![27](Images/27.png)
+![28](Images/28.png)
 
 * The add-in should appear automatically in the **top-right action bar** of the message window.
 * Click the add-in icon to launch the task pane.
 
-![28](Images/28.png)
+![29](Images/29.png)
 
 **B) Optional Deployment**
 
