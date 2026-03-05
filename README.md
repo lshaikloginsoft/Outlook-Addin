@@ -128,10 +128,11 @@ Note: You will not be able to view Client Secret after sometime. Save it securel
 ![11](Images/11.png)
 
 5. Navigate to `Settings → Environment Variables` and click on `+ Add`
-6. Fill `name` as `APP_DOMAIN` and value as above copied `Domain` value.
+6. Fill `name` as `APP_DOMAIN` and value as above copied `Domain` value. Click `Apply`
 
 ![12](Images/12.png)
 
+7. Click `Apply` and `Confirm` 
 ---
 
 ## Phase 3 – Configure App Registration 
@@ -151,13 +152,13 @@ https://YOUR-DOMAIN/fallbackauthdialog.html
 
 ![14](Images/14.png)
 
-7. Click **Set** (next to Application ID URI)
+7. Click **Add** (next to Application ID URI)
 
 * Edit manually and add domain after `api://` like below:
 ```
 api://YOUR-DOMAIN/CLIENT_ID
 ```
-8. Click **Save**
+8. Click **Save** and copy above Application ID URI for later.
 9. Click **+ Add a scope**
 
 ![15](Images/15.png)
@@ -192,7 +193,7 @@ api://YOUR-DOMAIN/CLIENT_ID
 
 # Phase 4 – Update manifest.xml
 
-* Open `manifest.xml` file and update all the highlighted domain values below with your Web App domain.
+* Open `manifest.xml` file and replace `{YOUR_DOMAIN}` with your Web App domain.
 
 ![17](Images/17.png)
 
@@ -208,7 +209,7 @@ api://YOUR-DOMAIN/CLIENT_ID
     <IconUrl DefaultValue="https://outlook-addin-vmray.azurewebsites.net/assets/icon-128.png"/>
 ```
 * #### Next update `WebApplicationInfo` section with 
-    `Client_Id` and `Application ID URI`  value created in Phase 3 step 7
+    `Client_Id` and `Application ID URI`  value created in Phase 3 step 8
 
 ![19](Images/19.png)
 
